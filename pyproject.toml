@@ -1,0 +1,25 @@
+[project]
+name = "taila"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MrDataPsycho", email = "mr.data.psycho@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.93.0",
+    "pydantic-settings>=2.10.1",
+]
+
+[project.scripts]
+taila = "taila:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
