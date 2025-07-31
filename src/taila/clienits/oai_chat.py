@@ -1,4 +1,4 @@
-from taila.utils.model_catalog import ChatModelSelection
+from taila.clienits.model_catalog import ChatModelSelection
 from openai import OpenAI, AsyncOpenAI
 import logging
 from openai import RateLimitError

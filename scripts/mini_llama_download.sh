@@ -1,0 +1,1 @@
+curl -o ./data/mini-llama-articles.csv https://raw.githubusercontent.com/AlaFalaki/tutorial_notebooks/main/data/mini-llama-articles.csv
